@@ -5,7 +5,7 @@ Repository for practicals of unit ECE4078 (Intelligent Robotics) offered in 2024
 
 The recommended way to run notebooks this year is installing Docker on your local computer, please refer to [Local Set Up](#local-set-up). After successful installation, please consult [Running the notebook](#running-the-notebook) on how to run the notebooks.
 
-Running on the cloud will also be possible, however, due to reliability issue, run it at your own risk, if the cloud method refuses to boot up during the lecture, there is nothing I can do! Please refer to [Weekly Notebook Cloud Compatibility](#cloud-compatibility) to check which cloud platform is available for said week.
+Running on the cloud will also be possible **for certain weeks only as Deepnote recently changed their cell engine**. However, due to reliability issue, run it at your own risk, if the cloud method refuses to boot up during the lecture, there is nothing I can do! Please refer to [Weekly Notebook Cloud Compatibility](#cloud-compatibility) to check which cloud platform is available for said week.
 
 # Homework
 
@@ -84,6 +84,7 @@ Simply clicking on the badge of each week will land you in a page in which you c
 
 | 		| Cloud platform |
 | ------------- | -------------- |
+| Week00 | N/A   |
 | Week01 | N/A   |
 
 # How to use Deepnote
