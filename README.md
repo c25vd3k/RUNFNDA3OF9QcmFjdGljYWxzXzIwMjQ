@@ -1,5 +1,5 @@
-# ECE4078_Practicals_2024
-Repository for practicals of unit ECE4078 (Intelligent Robotics) offered in 2024.
+# ECE4078_Practicals_2025
+Repository for practicals of unit ECE4078 (Intelligent Robotics) offered in 2025.
 
 # How to run this on your computer 
 
@@ -85,16 +85,6 @@ Simply clicking on the badge of each week will land you in a page in which you c
 | 		| Cloud platform |
 | ------------- | -------------- |
 | Week00 | N/A   |
-| Week01 | [<img src="https://deepnote.com/buttons/launch-in-deepnote-white-small.svg">](https://deepnote.com/workspace/ece4078-7216-bdf57084-6c08-4dea-a555-1d8b5ffa5d2c/project/Week01-2024-5ecbbe05-f20c-4c7e-a328-9f7c640b89a2)   |
-| Week02 | [<img src="https://deepnote.com/buttons/launch-in-deepnote-white-small.svg">](https://deepnote.com/workspace/ece4078-7216-bdf57084-6c08-4dea-a555-1d8b5ffa5d2c/project/Week02-2024-87a2dcf2-1f5b-46d7-8692-2a33a908f7e6)   |
-| Week03 | [<img src="https://mybinder.org/badge_logo.svg">](https://mybinder.org/v2/gh/tinsirius/Week03_2024/main) |
-| Week04 | [<img src="https://deepnote.com/buttons/launch-in-deepnote-white-small.svg">](https://deepnote.com/workspace/ece4078-7216-bdf57084-6c08-4dea-a555-1d8b5ffa5d2c/project/Week04-2024-237c968e-007e-4462-be8e-8cb74c440c90)   |
-| Week05 | [<img src="https://mybinder.org/badge_logo.svg">](https://mybinder.org/v2/gh/tinsirius/Week05_2024/main) |
-| Week06 | [<img src="https://deepnote.com/buttons/launch-in-deepnote-white-small.svg">](https://deepnote.com/workspace/ece4078-7216-bdf57084-6c08-4dea-a555-1d8b5ffa5d2c/project/Week06-2024-158f8276-935d-4709-a2cc-e25fae6895a2) [<img src="https://mybinder.org/badge_logo.svg">](https://mybinder.org/v2/gh/tinsirius/Week06_2024/main)  |
-| Week07 | [<img src="https://deepnote.com/buttons/launch-in-deepnote-white-small.svg">](https://deepnote.com/workspace/ece4078-7216-bdf57084-6c08-4dea-a555-1d8b5ffa5d2c/project/Week07-2024-7f3be395-a396-481b-a346-c76835aabccd) [<img src="https://mybinder.org/badge_logo.svg">](https://mybinder.org/v2/gh/tinsirius/Week07_2024/main)  |
-| Week08 | [<img src="https://deepnote.com/buttons/launch-in-deepnote-white-small.svg">](https://deepnote.com/workspace/ece4078-7216-bdf57084-6c08-4dea-a555-1d8b5ffa5d2c/project/Week08-2024-f631e77f-03aa-4a24-b0b3-83469af1d718) [<img src="https://mybinder.org/badge_logo.svg">](https://mybinder.org/v2/gh/tinsirius/Week08_2024/main)  |
-| Week09 | [<img src="https://mybinder.org/badge_logo.svg">](https://mybinder.org/v2/gh/tinsirius/Week09_2024/main) |
-| Week11 | [<img src="https://mybinder.org/badge_logo.svg">](https://mybinder.org/v2/gh/tinsirius/Week11_2024/main) |
 
 # How to use Deepnote
 
