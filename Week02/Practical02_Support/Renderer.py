@@ -98,7 +98,6 @@ def get_workshop_layout(fig, interval, first_label, first_max, first_step, secon
 def bot2D_viz(ctx, mybot, mode, interval = 50, dt = 0.05, frames_max = 300, frame_step = 1):
     if frames_max % frame_step != 0:
         raise ValueError("frames_max must be a multiple of frame_step")
-    num_frames = frames_max / frame_step
 
     app = ctx["app"]
 
@@ -178,7 +177,7 @@ def bot2D_viz(ctx, mybot, mode, interval = 50, dt = 0.05, frames_max = 300, fram
                 [mybot.y, yaxis[1]],
             ],
         }
-        return (patch, [0, 1, 2], {"x": [num_frames, 2, 2], "y": [num_frames, 2, 2]}), no_update
+        return (patch, [0, 1, 2], {"x": [frames_max, 2, 2], "y": [frames_max, 2, 2]}), no_update
 
     @app.callback(Output("frame-label", "children"), Input("timer", "n_intervals"))
     def update_label(n):
