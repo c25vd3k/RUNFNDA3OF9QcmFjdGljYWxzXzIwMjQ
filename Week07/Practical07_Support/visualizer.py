@@ -97,7 +97,7 @@ class RobotPlotlyPlot():
 
     def plot_link(self, loc):
         return go.Scatter3d(
-            x=loc[0], y=loc[1], z=loc[2],
+            x=loc[0].tolist(), y=loc[1].tolist(), z=loc[2].tolist(),
             mode="lines+markers",
             line=dict(width=self.link_width, color=self.link_color),
             marker=dict(size=self.joint_size, color=self.link_color),
@@ -106,7 +106,7 @@ class RobotPlotlyPlot():
 
     def plot_shadow(self, loc):
         return go.Scatter3d(
-            x=loc[0], y=loc[1], z=np.zeros_like(loc[2]),
+            x=loc[0].tolist(), y=loc[1].tolist(), z=np.zeros_like(loc[2]).tolist(),
             mode="lines",
             line=dict(width=self.link_width, color=self.shadow_color),
             hoverinfo="skip",
@@ -154,8 +154,8 @@ class RobotPlotlyPlot():
             zs.append([loc[:, -1][2], ee[j].t[2]])
 
         
-        patch = {"x": [loc[0], loc[0]] + xs, 
-                 "y": [loc[1], loc[1]] + ys, 
+        patch = {"x": [loc[0].tolist(), loc[0].tolist()] + xs, 
+                 "y": [loc[1].tolist(), loc[1].tolist()] + ys, 
                  "z": [np.zeros_like(loc[2]), loc[2]] + zs
                 }
         
@@ -346,7 +346,7 @@ def bot2D_viz(ctx, my_plot = None):
 
     fig.add_trace(
         go.Scatter(
-            x=loc[0], y=loc[1],
+            x=loc[0].tolist(), y=loc[1].tolist(),
             mode="lines+markers",
             line=dict(width=my_plot.link_width, color=my_plot.link_color),
             marker=dict(size=my_plot.joint_size, color=my_plot.link_color),
@@ -407,7 +407,7 @@ def bot2D_viz(ctx, my_plot = None):
         loc, joints, ee = my_plot.axes_calcs()
         xx, yx = get_arrow(loc[:-1, -1], ee[0].t[:-1])
         xy, yy = get_arrow(loc[:-1, -1], ee[1].t[:-1])
-        patch = {"x": [xx, xy, loc[0]], "y": [yx, yy, loc[1]]}
+        patch = {"x": [xx, xy, loc[0].tolist()], "y": [yx, yy, loc[1].tolist()]}
         extension = (patch, [0,1,2], {"x": [2, 2, 4], "y": [2, 2, 4]})
         # msg = f"{np.round(R, 2)}"
         msg = f"End effector\n{np.round(my_plot.robot.fkine(my_plot.robot.q).A, 2)}"
